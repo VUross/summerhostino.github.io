@@ -1,0 +1,574 @@
+
+body {
+	font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 14px;
+    background-color : whitesmoke;
+    color: #989898;    
+    line-height: 1.42857143;     
+    transition: all 0.3s ease 0.0s;
+}
+
+#mainheadrel {
+	position : relative;
+	top : 0px;
+	left: 0px;
+	width : calc(100%)-2px;
+	height : 100px;
+	background-color : white;
+}
+
+#mainheadabs {	
+	position : absolute;
+	top : 20px;
+	left: 115px;
+	right : 115px;
+	height : 80px;
+	display : flex;
+	background-color : white;
+	align-items: baseline;
+	justify-content: space-between;
+}
+
+#logleft {
+	/*nothing 4 now*/
+}
+
+#navright {
+	font-size : 13px;
+	font-weight: bolder;
+	color  : #7f888f;
+}
+ 
+
+#hom {
+	color : #0397ff;
+}
+
+#navright ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navright li {
+    float: left;
+}
+
+#navright li a {
+    display: block;
+    color: #7f888f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#navright abbr {
+	text-decoration: none;
+}
+
+#navright li a:hover {
+    color: #0397ff;
+    font-weight: bolder;
+}
+
+#cht {
+	margin-left : -15px;
+	padding : 10px 20px 10px 20px;
+	background-color : #00d85f;
+	color : white;
+	border-radius : 6px;
+	box-shadow: 3px 3px 10px lightblue;
+}
+
+#navright li a #cht:hover {
+	margin-top : 5px;
+	padding : 10px 20px 10px 20px;
+	background-color : #00d85f;
+	color : white;
+	border-radius : 6px;
+	box-shadow: 3px 3px 2px lightblue;
+}
+
+#centerp {
+	position : relative;
+	top : 0px;
+	width : calc(max-width)-2px;
+	height : 450px;
+	display : flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#centerp img {
+	width : 417px;
+	height : 234px;
+}
+
+#centerp h2 {
+	position : absolute;
+	top : 310px;
+	left : 400px;
+	display : block;
+	font-size : 32px;
+	font-weight: : 700px;
+	text-align: center;
+	color : #0397ff;
+}
+/**/
+
+.bluebut {
+	position : relative;
+	top : 0px;
+	left : 575px;
+	width : 187px;
+	height : 60px;	
+	color : white;
+}
+
+.bluebutton {
+	position : absolute;
+	top : 0px;
+	left : 0px;
+	width : 183px;
+	height : 50px;
+	background-color : #0397ff;
+	box-shadow: 5px 5px 5px lightblue;	
+	border-radius : 5px;
+	opacity : 0.9;
+}
+
+.bluebutton:hover {
+	background-color: blue;
+	box-shadow: 3px 3px 3px lightblue;
+}
+
+.bluebutton h2 {
+	position : absolute;
+	top : -5px;
+	left : 25px;
+	font-size : 19px;
+	font-weight : 700px;
+}
+
+.bluebutton h2 abbr {
+	text-decoration : none;
+}
+
+#buttonss {
+	position : relative;
+	display : flex;
+	top  : 0px;
+	left : 380px;
+	width : 550px;
+	height : 100px;
+	justify-content: space-between;
+	align-items : flex-end;
+	background-color : whitesmoke;
+	padding-bottom: 40px;
+}                              
+
+.butn {
+	  font-family: 'Open Sans', sans-serif;
+	  margin-left: 30px;
+	  font-size : 17px;
+	  font-weight : 600;
+	  background-color : whitesmoke;
+	  color : lightgray;
+	  padding : 10px 20px;
+	  border: none;
+	  border-bottom : 3px solid lightgray;
+}
+
+.blubutn {
+	font-family: 'Open Sans', sans-serif;
+    margin-left: 30px;
+	font-size : 17px;
+	font-weight : 600;
+    background-color : whitesmoke;
+	color : blue;
+	padding : 10px 30px 10px 30px;
+	border : none;
+	border-bottom: 3px solid blue;
+}                                                                                                                                                                                                          
+
+.greentrk {
+	position : relative;
+	width : calc(max-width)-2px;
+	height : 450px;
+	top : 0px;
+	left : 0px;
+	background-color: #00d85f;
+}
+
+.greentrk h4 {
+	position : absolute;
+	width : 900px;
+	top : 50px;
+	left : 250px;
+	text-align: center;
+	font-size : 15px;
+	font-weight : 700;
+	color : #fff;
+}
+
+.greentrk p {
+	position : absolute;
+	top : 140px;
+	left : 290px;
+	right : 290px;
+	bottom : 200px;
+	font-size : 24px;
+	color : #fff;
+	text-align: center;
+}
+
+
+#gbutton {
+	position : absolute;
+	transition: all 0.5s ease 0.0s;
+	font-size : 23px;
+ 	top : 370px;
+	left : 48%;
+	width : 110px;
+	height : 35px;
+	border-radius: 6px;
+	background-color : white;
+	color : #6c84af;
+	box-shadow: 0 12px 32px 0 rgba(10, 131, 63, 0.46)
+}
+
+#gbutton:hover {
+	font-size : 21px;
+    width : 105px;
+    height : 30px;
+    color : orange;
+    box-shadow: 0 12px 32px 0 rgba(10, 131, 63, 0.46)
+    transform : zoom;
+}
+
+#gbutton h6 {
+	display : inline-block;
+	text-align : center;
+	position : absolute;
+	top : -30px;
+	left : 15px;
+}
+
+#choices {
+	position : relative;
+	width : 99%;
+	height : 632px;
+	background-color : #fff;
+}
+
+#choices h2 {
+	text-align: center;
+	color: #6c84af;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+#choices h4 {
+	text-align : center;
+	margin-bottom: 60px;
+}
+
+#choices .containr {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	margin-right: 10%;
+	margin-bottom: 50px;
+	margin-left : 10%;
+}
+
+#choices .containr .boxlook {
+	display: flex;
+	flex-direction: column;
+	margin-right : 30px;
+}
+
+#choices .containr .boxlook:hover {
+	box-shadow: 2px 2px 5px powderblue;
+	border-radius: 8px;
+	background-color: #cce6ff;
+	border : 5px solid lightblue;
+	margin-right : 30px;
+	opacity : 0.7;		
+}
+
+#choices .containr .boxlook:hover i.fa {									/*remember hover target option*/
+	color: blue;														
+}
+
+
+#choices .containr .boxlook img {
+	width: 80%;
+	margin: 40px 10%;
+}
+
+#choices .containr .boxlook i {
+	font-size: 70px;
+	color: gray;
+	text-align: center;
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 140px;
+}
+
+
+#choices .containr .boxlook h3 {
+	padding: 0 30px;
+	font-size: 16px;
+	text-align: center;
+	color : blue;
+}
+
+#choices .containr .boxlook p {
+	padding: 0 30px;
+	font-size: 16px;
+	text-align: center;
+	color : gray;
+}
+
+#choices .abutton {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+#choices .abutton a {
+	transition-delay: 0.3s;
+	text-decoration: none;
+	font-size : 18px;
+	font-weight: bolder;
+	padding: 10px 20px;
+	background-color: #ccf2ff;	
+	color: gray;
+	border-radius: 5px;
+}
+
+#choices .abutton a:hover {	
+	font-size : 16px;
+	font-weight: bold;							
+	color: orange;
+}
+
+#pricings {
+	position : relative;
+	width: 100%;
+	background-color: whitesmoke;
+}
+
+#pricings h2 {
+	text-align : center;
+	color: #6c84af;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+#pricings .holder {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin: 0 10%;
+}
+
+#pricings .holder .headline {
+	display: flex;
+	justify-content: center;
+	padding: 50px 0;
+}
+
+#pricings .holder .offers {																		
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+} 
+
+#pricings .holder .offers .prices {
+	transition: all .2s ease-in-out;
+}
+
+#pricings .holder .offers .prices:hover {									
+	transform: scale(1.05);
+}
+
+.title {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.title p.big {
+	font-size: 50px;
+	color: #e6e6e6;
+	padding: 0;
+}
+
+.title p.small {
+	font-size: 18px;
+	color: lightblue;
+}
+
+.title span {
+	font-size: 20px;
+}
+
+#pricings .holder .offers .list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 2px solid lightblue;
+	border-radius: 20px;
+	background-color: white;
+}
+
+#pricings .holder a.view-all {
+	text-decoration: none;
+	margin: 50px 0;
+	text-align: center;
+	color: blue;
+}
+
+#pricings .holder a.view-all:hover {
+	color: darkblue;
+}
+
+.list {
+	padding: 35px 10px;
+}
+
+.list h3, h5 {
+	margin: 0px;
+}
+
+.list ul {
+	padding: 30px;
+	list-style: none;
+}
+
+.list ul li {
+	padding: 2px;
+	font-weight: bold;
+}
+
+.list ul li:nth-child(-n+7) {
+	color: #6c84af;
+}
+
+.list.list-2 ul li:nth-child(-n+9) {											/*remember these nth child options*/
+	color: #6c84af;
+}
+
+.list.list-3 ul li:nth-child(-n+11) {
+	color: #6c84af;
+}
+
+.list ul span {
+	font-size: 15px;
+	color: lightgreen;
+	padding: 0 5px;
+	font-weight: bold;
+}
+
+a.buy-btn {
+	padding: 10px 20px;
+	background-color: #ccf2ff;
+	border-radius: 5px;
+	text-decoration: none;
+	color: skyblue;
+}
+
+a.buy-btn:hover {
+	color: #6c84af;
+}
+
+a.vaplns {
+	margin-top : 30px;
+	text-decoration : none;
+	text-align : center;
+	font-size : 18px;
+	font-weight: bold;
+	color : #6c84af;
+}
+
+a.vaplns:hover {
+	color : orange;
+}
+
+#apps {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#apps .apps-holder {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#apps .apps-holder p {
+	text-align: center;
+	position: relative;
+	top: 45px;
+	right: -145px;
+	font-size: 50px;
+	color: #D0FDFD;
+}
+
+#apps .apps-holder h3 {
+	text-align: center;
+	color: blue;
+}
+
+#apps .apps-holder .img-cols {
+	display: flex;
+	flex-direction: row;
+	padding: 40px 30% 0 30%;
+	justify-content: space-between;
+}
+
+#apps .apps-holder .img-cols img {
+	width: 40px;
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+#apps .apps-holder .img-cols .single-col {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*padding: 30px 30px 0px 30px;*/
+	margin: 0 20px;
+	color: lightblue;
+	font-weight: bold;
+	border-bottom: 3px solid transparent;												/*remember this option*/
+}
+
+#apps .apps-holder .img-col.single-col:hover {
+	border-bottom: 3px solid blue;
+}
+
+.quote {
+	width: 60%;
+	margin: 0 20% 50px;
+	border: 2px solid lightblue;
+	border-radius: 20px;
+}
+
+.quote h4, h6 {
+	margin: 40px 150px; 
+	text-align: center;
+}
